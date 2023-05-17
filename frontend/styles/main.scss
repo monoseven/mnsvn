@@ -1,0 +1,101 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #1E1E1E;
+    color: #ffff;
+    place-items: center;
+}
+
+//animation-greeting
+
+
+.navbar-brand{
+    max-height: 30px;
+        p{
+            color: #fff;
+            display: inline-block;
+            margin-left: 24px;
+            font-size: 14px;
+        }
+}
+
+.wrapper{
+    box-sizing: content-box;
+    height: 100px;
+    padding-top: 5em;
+    display: flex;
+    justify-content: center;
+    text-align: right;
+}
+.words{
+    overflow: hidden;
+}
+.words > span{
+    font-size:80px;
+    font-weight:700;
+    display: block;
+    animation: slide 6s infinite;
+    // border: 1px solid #fff;
+}
+.last{
+    font-size:80px;
+    font-weight:700;
+    padding-left: 10px;
+}
+
+
+@keyframes slide {
+    10%{
+      transform: translateY(-105%);
+    }
+    25%{
+        transform: translateY(-95%);
+    }
+    35%{
+        transform: translateY(-205%);
+      }
+    50%{
+        transform: translateY(-195%);
+      }
+    65%{
+        transform: translateY(-305%);
+    }
+    75%{
+        transform: translateY(-295%);
+    }
+    85%{
+        transform: translateY(-405%);
+    }
+    100%{
+        transform: translateY(-395%);
+    }
+  }
+
+.navbar-light{
+    .navbar-nav{
+        .nav-item{
+            .nav-link{
+                margin-top: 13px;
+                color: #777777;
+                font-size: 14px;
+                &.active{
+                    font-weight: bold;
+                    color: #fff !important;
+                }
+    
+        }
+        
+        }
+    }
+
+}
+  
+
+h1{
+    font-weight: 700;
+    font-size: 70px;
+}
+p{
+    color: #777777;
+    font-size: 30px;
+    font-weight: 500;
+}
